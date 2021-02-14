@@ -1,16 +1,24 @@
 ---
-title: Hexo gitblog 만들기
-date: 2021-02-14 00:36:29
-tags: "hexo"
-categories: "BLOG"
+title: hexo gitblog 만들기
+date: 2021-02-14 23:15:15
+tags: hexo
+categories: BLOG
 ---
 
+### **목차**
+[**개요**](#개요)
+[**1.파일 설치**](#파일-설치)
+[**2.깃허브 설정**](#깃허브-설정)
+[**3.블로그 만들기**](#블로그-만들기)
+[**4.깃허브에 배포하기**](#깃허브에-배포하기)
+[**5.테마 설정하기**](#테마-설정하기)
+[**6.다른 환경에서 작업하기**](#다른-환경에서-작업하기)
 
 ## 개요
 
 - `Hexo` 블로그를 만들어 본다. 
 
-### 1. 파일 설치
+### 파일 설치
 
 - 1단계 : [nodejs.org](https://nodejs.org/en/) 다운로드
     - 설치가 되었는지 확인해본다.
@@ -36,7 +44,7 @@ $ git --version
 $ npm install -g hexo-cli
 ```
 
-### 2. 깃허브 설정
+### 깃허브 설정
 
 - 두개의 깃허브 `Repo`를 생성한다.
     - 포스트 버전관리 (name : myblog)
@@ -49,7 +57,7 @@ $ npm install -g hexo-cli
 $ git clone your_git_repo_address.git
 ```
 
-### 3. 블로그 만들기
+### 블로그 만들기
 
 - 내려받은 `myblog`의 경로를 찾아 들어간다.
 - `myblog`폴더 안에 임의의 블로그 파일명을 만든다.
@@ -95,7 +103,7 @@ deploy:
   branch: main
 ```
 
-### 4. 깃허브에 배포하기
+### 깃허브에 배포하기
 
 - 배포 전, 로컬환경에서 블로그가 뜨는지 확인해본다.
 
@@ -131,7 +139,7 @@ $ hexo deploy
 
 - 배포가 완료가 되면 브라우저에서 USERNAME.github.io로 접속해 정상적으로 배포가 되었는지 확인한다.
 
-### 5. 테마 설정하기
+### 테마 설정하기
 
 - `ICARUS` 테마로 변경
 
@@ -187,7 +195,7 @@ $ git commit -m "add: new post updated"
 $ git push origin master
 ```
 
-### 6. 다른환경에 작업하기
+### 다른 환경에서 작업하기
 
 - 새로운 위치에 `myblog`를 `clone`해 준다.
 
