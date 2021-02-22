@@ -2,7 +2,7 @@
 title: hexo gitblog 만들기
 date: 2021-02-14 23:15:15
 tags: hexo
-categories: BLOG
+categories: blog
 ---
 
 ### **목차**
